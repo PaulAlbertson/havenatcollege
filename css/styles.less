@@ -108,11 +108,13 @@ textarea {
 
 .cutive11{font-family:@cutive; font-size:11px;}
 .cutive14{font-family:@cutive; font-size:14px;}
+.cutive15{font-family:@cutive; font-size:15px;}
 .cutive16{font-family:@cutive; font-size:16px;}
 .cutive18{font-family:@cutive; font-size:18px;}
 .cutive20{font-family:@cutive; font-size:20px;}
 .cutive22{font-family:@cutive; font-size:22px;}
 .cutive24{font-family:@cutive; font-size:24px;}
+.cutive30{font-family:@cutive; font-size:30px;}
 
 
 //stoke
@@ -134,6 +136,7 @@ textarea {
 h1{font-family:@cutive;font-weight:normal;}
 h2 {font-family:@cutive;font-weight:normal;margin-bottom:0;padding-bottom:0;}
 .textCenter{text-align:center;}
+.fontBold{font-weight:bold;}
 .bottomNavLineSpace{line-height:1.1;}
 .contentH1LineSpace{line-height:1.15;}
 .contentLineSpace1_3{line-height:1.3;}
@@ -144,7 +147,7 @@ h2 {font-family:@cutive;font-weight:normal;margin-bottom:0;padding-bottom:0;}
 .marginBottom10px{margin-bottom:5px;}
 ul.ulMarginSet{list-style:none; padding:0px;margin-left:0px;margin-top:0px;margin-bottom:0px;}
 ol.olMarginSet{padding-left:25px;margin-top:0px;margin-bottom:0px;}
-li.liMarginSet{padding-left:0px; background-image:url("../img/global/bulletImage.gif"); background-repeat:no-repeat;background-position: 0px 1px; padding-left: 14px;}
+li.liMarginSet{padding-left:0px; background-image:url("../img/global/bulletImage.gif"); background-repeat:no-repeat;background-position: 0px 1px; padding-left: 25px;}
 
 
 /* links stuff */
@@ -185,7 +188,6 @@ a.paddingSet{margin-top:5px;}
 #subPgBottomLinks{width:820px; height:40px; margin-left:200px; padding-top:10px; margin-bottom:0px; background-repeat: no-repeat; background-image:url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");}
 
 
-
 /* Home Page Buttons*/
 /* Less Variables */
 @homeOverStateZ:12;
@@ -202,6 +204,8 @@ a.paddingSet{margin-top:5px;}
 
 #homePgButtons{overflow:inherit;}
 //background-color: #ffffff\9;
+
+#hmPageFeatureBanner{position:absolute; right:0px; top:30px; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeDotsZ;}
 
 #communityBtnDiv{position:relative; width:100px;left:49px; top:140px; opacity:0; filter: alpha(opacity=0);}
 #communityBtnDots{position:absolute; left:210px; top:80px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ; }
@@ -286,66 +290,215 @@ a.paddingSet{margin-top:5px;}
 /* Students Page */
 #studentsMainContent{position:relative; height:4300px; width:800px; left:170px;}
 
-#studentsRowOneContent{position: relative; width:800px;height:530px;}
-#studentsRowOneContentLeft{position:relative; float:left; padding-top:140px; padding-left:110px;background-color:#ffffff;}
-#studentsRowOneContentRight{position:relative; float:right; padding-top:90px; padding-right:0px;}
+#studentsRowOneContent{position: relative; width:760px;height:530px;}
+#studentsRowOneContentLeft{position:relative; float:left; padding-top:100px; padding-left:110px;}
+#studentsRowOneContentRight{position:relative; float:right; padding-top:60px; padding-bottom:20px; padding-right:0px;}
 
-#studentsRowTwoContent{position: relative; width:800px; background-color:#ffffff;}
-#studentsRowTwoContentLeft{position:relative; float:left; padding-top:0px; padding-left:0px; background-color:#ffffff;}
-#studentsRowTwoContentRight{position:relative; float:right; padding-top:0px; padding-right:120px;}
+#studentsRowTwoContent{position: relative; width:800px; }
+#studentsRowTwoContentLeft{position:relative; float:left; padding-top:40px; padding-bottom:20px; padding-left:100px; }
+#studentsRowTwoContentRight{position:relative; float:right; padding-top:10px; padding-bottom:30px; padding-right:40px;}
 
-#studentsRowThreeContent{position: relative; width:800px; background-color:#ffffff;}
-#studentsRowThreeContentLeft{position:relative; float:left; padding-top:130px; padding-left:125px; background-color:#ffffff;}
-#studentsRowThreeContentRight{position:relative; float:right; padding-top:0px; padding-right:80px;padding-bottom:50px;}
+#studentsRowThreeContent{position: relative; width:800px; }
+#studentsRowThreeContentLeft{position:relative; float:left; padding-top:70px; padding-left:150px; }
+#studentsRowThreeContentRight{position:relative; float:right; padding-top:160px; padding-bottom:200px; padding-right:20px; }
 
-#studentsRowFourContent{position: relative; width:800px; background-color:#ffffff;}
-#studentsRowFourContentLeft{position:relative; float:left; padding-top:40px; padding-left:80px; background-color:#ffffff;}
-#studentsRowFourContentRight{position:relative; float:right; padding-top:20px; padding-right:85px;}
+#studentsRowFourContent{position: relative; width:800px; }
+#studentsRowFourContentLeft{position:relative; float:left; padding-top:40px; padding-left:120px;  z-index:20;}
+#studentsRowFourContentRight{position:absolute; float:right; top:1875px; left: 500px; padding-top:0px; padding-right:20px;z-index:25;}
 
-#studentsRowFiveContent{position: relative; width:800px; background-color:#ffffff;}
-#studentsRowFiveContentLeft{position:relative; float:left; padding-top:70px; padding-left:140px; background-color:#ffffff;}
-#studentsRowFiveContentRight{position:relative; float:right; padding-top:90px; padding-right:0px;padding-bottom:10px; background-color:#ffffff;}
+#studentsRowFiveContent{position: relative; width:800px; }
+#studentsRowFiveContentLeft{position:relative; float:left; padding-top:70px; padding-left:40px; }
+#studentsRowFiveContentRight{position:absolute; float:right; top:2645px; left: 500px; padding-top:90px; padding-right:0px;z-index:25;}
 
-#studentsRowSixContent{position: relative; width:800px; background-color:#ffffff;}
-#studentsRowSixContentLeft{position:relative; float:left; padding-top:50px; padding-left:0px; background-color:#ffffff;}
-#studentsRowSixContentRight{position:relative; float:right; padding-top:120px; padding-right:90px;padding-bottom:20px; background-color:#ffffff;}
+#studentsRowSixContent{position: relative; width:800px; }
+#studentsRowSixContentLeft{position:relative; float:left; padding-top:50px; padding-left:0px; }
+#studentsRowSixContentRight{position:relative; float:right; padding-top:120px; padding-right:90px;padding-bottom:20px; }
 
-#studentsRowSevenContent{position: relative; width:700px; background-color:#ffffff;}
-#studentsRowSevenContentLeft{position:relative; float:left; padding-top:60px; padding-left:120px; padding-bottom:0px; background-color:#ffffff;}
-#studentsRowSevenContentRight{position:relative; float:right; padding-top:130px; padding-right:0px;padding-bottom:0px; background-color:#ffffff;}
+#studentsRowSevenContent{position: relative; width:800px; }
+#studentsRowSevenContentLeft{position:relative; float:left; padding-top:60px; padding-left:120px; padding-bottom:0px; }
+#studentsRowSevenContentRight{position:relative; float:right; padding-top:130px; padding-right:40px;padding-bottom:0px; }
 
 
 /* Parents Page */
-#parentsMainContent{position:relative; height:4000px; width:800px; left:200px;}
+#parentsMainContent{position:relative; height:4050px; width:800px; left:200px;}
 
-#parentsRowOneContent{position: relative; width:800px;height:510px;}
-#parentsRowOneContentLeft{position:relative; float:left; padding-top:140px; padding-left:95px; background-color:#ffffff;}
-#parentsRowOneContentRight{position:relative; float:right; padding-top:70px; padding-bottom:35px; padding-right:0px;}
+#parentsRowOneContent{position: relative; width:800px;}
+#parentsRowOneContentLeft{position:relative; float:left; padding-top:120px; padding-left:100px; z-index:25;}
+#parentsRowOneContentRight{position:absolute; float:right; left:350px; padding-top:40px; padding-bottom:35px; padding-right:0px; z-index:20;}
 
-#parentsRowTwoContent{position: relative; width:800px; background-color:#ffffff;}
-#parentsRowTwoContentLeft{position:relative; float:left; padding-top:30px; padding-left:0px; background-color:#ffffff;}
-#parentsRowTwoContentRight{position:relative; float:right; padding-top:0px; padding-right:130px;background-color:#ffffff;}
+#parentsRowTwoContent{position: relative; width:800px; }
+#parentsRowTwoContentLeft{position:relative; float:left; padding-top:70px; padding-left:0px; }
+#parentsRowTwoContentRight{position:relative; float:right; padding-top:0px; padding-right:50px;}
 
-#parentsRowThreeContent{position: relative; width:800px; background-color:#ffffff;}
-#parentsRowThreeContentLeft{position:relative; float:left; padding-top:190px; padding-left:95px; background-color:#ffffff;}
-#parentsRowThreeContentRight{position:relative; float:right; padding-top:0px; padding-right:20px;padding-bottom:100px;background-color:#ffffff;}
+#parentsRowThreeContent{position: relative; width:850px; }
+#parentsRowThreeContentLeft{position:relative; float:left; padding-top:70px; padding-left:145px; }
+#parentsRowThreeContentRight{position:relative; float:right; padding-top:100px; padding-bottom:50px; padding-right:0px;}
 
-#parentsRowFourContent{position: relative; width:800px; background-color:#ffffff;}
-#parentsRowFourContentLeft{position:relative; float:left; padding-top:180px; padding-left:0px; background-color:#ffffff;}
-#parentsRowFourContentRight{position:relative; float:right; padding-top:20px; padding-right:95px;padding-bottom:50px;background-color:#ffffff;}
+#parentsRowFourContent{position: relative; width:800px; }
+#parentsRowFourContentLeft{position:relative; float:left; padding-top:10px; padding-left:90px; }
+#parentsRowFourContentRight{position:relative; float:right; padding-top:0px; padding-right:55px; padding-bottom:0px;}
 
-#parentsRowFiveContent{position: relative; width:800px; background-color:#ffffff;}
-#parentsRowFiveContentLeft{position:relative; float:left; padding-top:60px; padding-left:130px; background-color:#ffffff;}
-#parentsRowFiveContentRight{position:relative; float:right; padding-top:30px; padding-right:10px;padding-bottom:10px; background-color:#ffffff;}
+// #parentsRowFiveContent{position: relative; width:800px; }
+// #parentsRowFiveContentLeft{position:relative; float:left; padding-top:60px; padding-left:130px; }
+// #parentsRowFiveContentRight{position:relative; float:right; padding-top:30px; padding-right:10px;padding-bottom:10px; }
+// 
+// #parentsRowSixContent{position: relative; width:800px; }
+// #parentsRowSixContentLeft{position:relative; float:left; padding-top:60px; padding-left:40px; }
+// #parentsRowSixContentRight{position:relative; float:right; padding-top:120px; padding-right:90px;padding-bottom:20px; }
+// 
+// #parentsRowSevenContent{position: relative; width:800px; }
+// #parentsRowSevenContentLeft{position:relative; float:left; padding-top:60px; padding-left:50px; padding-bottom:0px; }
+// #parentsRowSevenContentRight{position:relative; float:right; padding-top:20px; padding-left:0px;padding-right:0px;padding-bottom:0px;}
 
-#parentsRowSixContent{position: relative; width:800px; background-color:#ffffff;}
-#parentsRowSixContentLeft{position:relative; float:left; padding-top:60px; padding-left:40px; background-color:#ffffff;}
-#parentsRowSixContentRight{position:relative; float:right; padding-top:120px; padding-right:90px;padding-bottom:20px; background-color:#ffffff;}
+/* Administrators Page */
+#administratorsMainContent{position:relative; height:3800px; width:800px; left:170px;}
 
-#parentsRowSevenContent{position: relative; width:800px; background-color:#ffffff;}
-#parentsRowSevenContentLeft{position:relative; float:left; padding-top:60px; padding-left:50px; padding-bottom:0px; background-color:#ffffff;}
-#parentsRowSevenContentRight{position:relative; float:right; padding-top:20px; padding-left:0px;padding-right:0px;padding-bottom:0px;background-color:#ffffff;}
+#administratorsRowOneContent{position: relative; width:800px;}
+#administratorsRowOneContentLeft{position:relative; float:left; padding-top:100px; padding-left:130px;}
+#administratorsRowOneContentRight{position:relative; float:right; padding-top:190px; padding-bottom:20px; padding-right:0px;}
 
+#administratorsRowTwoContent{position: relative; width:800px; }
+#administratorsRowTwoContentLeft{position:relative; float:left; padding-top:180px; padding-bottom:20px; padding-left:60px; }
+#administratorsRowTwoContentRight{position:relative; float:right; padding-top:10px; padding-bottom:30px; padding-right:100px;}
+
+#administratorsRowThreeContent{position: relative; width:800px; }
+#administratorsRowThreeContentLeft{position:relative; float:left; padding-top:0px; padding-left:150px; z-index:25;}
+#administratorsRowThreeContentRight{position:absolute; float:right; top: 1425px; left:430px; padding-top:170px; padding-bottom:200px; padding-right:0px; z-index:20;}
+
+#administratorsRowFourContent{position: relative; width:800px; }
+#administratorsRowFourContentLeft{position:relative; float:left; padding-top:210px; padding-left:90px;  }
+#administratorsRowFourContentRight{position:relative; float:right; padding-top:0px; padding-right:30px;}
+
+#administratorsRowFiveContent{position: relative; width:800px; }
+#administratorsRowFiveContentLeft{position:relative; float:left; padding-top:220px; padding-left:180px; }
+#administratorsRowFiveContentRight{position:relative; float:right; padding-top:80px; padding-right:0px;}
+
+/* Treatment Professionals Page */
+#treatmentProsMainContent{position:relative; height:3500px; width:800px; left:170px;}
+
+#treatmentProsRowOneContent{position: relative; width:800px;}
+#treatmentProsRowOneContentLeft{position:relative; float:left; padding-top:100px; padding-left:130px;}
+#treatmentProsRowOneContentRight{position:relative; float:right; padding-top:70px; padding-bottom:30px; padding-right:60px;}
+
+#treatmentProsRowTwoContent{position: relative; width:800px; }
+#treatmentProsRowTwoContentLeft{position:relative; float:left; padding-top:180px; padding-bottom:20px; padding-left:60px; }
+#treatmentProsRowTwoContentRight{position:relative; float:right; padding-top:10px; padding-bottom:30px; padding-right:100px;}
+
+#treatmentProsRowThreeContent{position: relative; width:800px; }
+#treatmentProsRowThreeContentLeft{position:relative; float:left; padding-top:0px; padding-left:150px;}
+#treatmentProsRowThreeContentRight{position:relative; float:right;padding-top:170px; padding-bottom:120px; padding-right:10px;}
+
+#treatmentProsRowFourContent{position: relative; width:800px; }
+#treatmentProsRowFourContentLeft{position:relative; float:left; padding-top:50px; padding-left:50px;  }
+#treatmentProsRowFourContentRight{position:relative; float:right; padding-top:10px; padding-right:30px;}
+
+#treatmentProsRowFiveContent{position: relative; width:800px; }
+#treatmentProsRowFiveContentLeft{position:relative; float:left; padding-top:50px; padding-left:180px; }
+#treatmentProsRowFiveContentRight{position:relative; float:right; padding-top:80px; padding-right:40px;}
+
+/* Contact Us Page */
+#contactUsMainContent{position:relative; height:4700px; width:800px; left:170px;}
+
+#contactUsRowOneContent{position: relative; width:800px;}
+#contactUsRowOneContentLeft{position:relative; float:left; padding-top:100px; padding-left:130px; z-index:25;}
+#contactUsRowOneContentRight{position:absolute; float:right; top: 80px; left:430px; padding-top:70px; padding-bottom:30px; padding-right:60px; z-index:20;}
+
+#contactUsRowTwoContent{position: relative; width:800px; }
+#contactUsRowTwoContentLeft{position:relative; float:left; padding-top:20px; padding-bottom:20px; padding-left:130px; }
+#contactUsRowTwoContentRight{position:relative; float:right; padding-top:20px; padding-bottom:30px; padding-right:110px;}
+
+#contactUsRowThreeContent{position: relative; width:800px; }
+#contactUsRowThreeContentLeft{position:relative; float:left; padding-top:0px; padding-left:40px;}
+#contactUsRowThreeContentRight{position:relative; float:right;padding-top:140px; padding-bottom:20px; padding-right:150px;}
+
+#contactUsRowFourContent{position: relative; width:800px; }
+#contactUsRowFourContentDiv{position:relative; float:left; padding-top:10px; padding-left:140px;  }
+
+#contactUsRowFiveContent{position: relative; width:800px; }
+#contactUsRowFiveContentLeft{position:relative; float:left; padding-top:80px; padding-left:130px; }
+#contactUsRowFiveContentRight{position:relative; float:right; padding-top:0px; padding-right:40px;}
+
+#contactUsRowSixContent{position: relative; width:800px; }
+#contactUsRowSixContentLeft{position:relative; float:left; padding-top:50px; padding-left:140px; z-index:25;}
+#contactUsRowSixContentRight{position:absolute; float:right; top:1600px; left: 420px; padding-top:0px; padding-right:50px; z-index:20;}
+
+#contactUsRowSevenContent{position: relative; width:800px; }
+#contactUsRowSevenContentLeft{position:relative; float:left; padding-top:80px; padding-left:130px; }
+#contactUsRowSevenContentRight{position:relative; float:right; padding-top:0px; padding-right:90px;}
+
+#contactUsRowEightContent{position: relative; width:800px; }
+#contactUsRowEightContentLeft{position:relative; float:left; padding-top:50px; padding-left:140px; z-index:25;}
+#contactUsRowEightContentRight{position:absolute; float:right; top:2370px; left: 430px; padding-top:0px; padding-right:50px; z-index:20;}
+
+#contactUsRowNineContent{position: relative; width:800px; }
+#contactUsRowNineContentLeft{position:relative; float:left; padding-top:80px; padding-left:130px; }
+#contactUsRowNineContentRight{position:relative; float:right; padding-top:0px; padding-right:10px;}
+
+#contactUsRowTenContent{position: relative; width:800px; }
+#contactUsRowTenContentLeft{position:relative; float:left; padding-top:50px; padding-left:140px; z-index:25;}
+#contactUsRowTenContentRight{position:absolute; float:right; top:3230px; left: 430px; padding-top:0px; padding-right:50px; z-index:20;}
+
+#contactUsRowElevenContent{position: relative; width:800px; }
+#contactUsRowElevenContentLeft{position:relative; float:left; padding-top:80px; padding-left:130px; }
+#contactUsRowElevenContentRight{position:relative; float:right; padding-top:10px; padding-right:70px;}
+
+#contactUsRowTwelveContent{position: relative; width:800px; }
+#contactUsRowTwelveContentLeft{position:relative; float:left; padding-top:50px; padding-left:140px; z-index:25;}
+#contactUsRowTwelveContentRight{position:absolute; float:right; top:4050px; left: 430px; padding-top:0px; padding-right:50px; z-index:20;}
+
+#contactUsRowThirteenContent{position: relative; width:800px; }
+#contactUsRowThirteenContentLeft{position:relative; float:left; padding-top:50px; padding-left:140px; }
+#contactUsRowThirteenContentRight{position:relative; float:right; padding-top:50px; padding-right:50px;}
+
+/* Atypical Day Page */
+#atypicalDayMainContent{position:relative; height:2800px; width:700px; left:160px;}
+
+#atypicalDayCampusPoliceDiv{position:absolute; width:140px; height:90px; top:100px; left:100px; z-index:30;}
+#atypicalDayLibraryDiv{position:absolute; width:140px; height:100px; top:140px; left:250px; z-index:30;}
+#atypicalDayHealthCenterDiv{position:absolute; width:120px; height:100px; top:140px; left:470px; z-index:30;}
+#atypicalDayFratRowDiv{position:absolute; width:120px; height:90px; top:140px; left:600px; z-index:30;}
+#atypicalDayCoffeeHouseDiv{position:absolute; width:150px; height:95px; top:280px; left:80px; z-index:30;}
+#atypicalDayGymDiv{position:absolute; width:120px; height:70px; top:250px; left:240px; z-index:30;}
+#atypicalDayStadiumDiv{position:absolute; width:200px; height:80px; top:320px; left:300px; z-index:30;}
+#atypicalDayMCCDiv{position:absolute; width:100px; height:80px; top:260px; left:530px; z-index:30;}
+#atypicalDayCounselingDiv{position:absolute; width:140px; height:90px; top:240px; left:640px; z-index:30;}
+#atypicalDayYogaDiv{position:absolute; width:100px; height:160px; top:410px; left:230px; z-index:30;}
+#atypicalDayHavenDiv{position:absolute; width:100px; height:160px; top:440px; left:335px; z-index:30;}
+#atypicalDayPubDiv{position:absolute; width:110px; height:150px; top:400px; left:460px; z-index:30;}
+#atypicalDayConductDiv{position:absolute; width:170px; height:150px; top:340px; left:590px; z-index:30;}
+#atypicalDayHavenDiv{position:absolute; width:100px; height:190px; top:410px; left:340px; z-index:30;}
+
+#atypicalDayCampusPoliceBubble{position:absolute; opacity:0; top:35px; left:190px; z-index:28; }
+#atypicalDayLibraryBubble{position:absolute; opacity:0; width:140px; top:55px; left:245px; z-index:28;}
+#atypicalDayHealthCenterBubble{position:absolute; opacity:0; top:50px; left:470px; z-index:28;}
+#atypicalDayFratRowBubble{position:absolute; opacity:0; top:55px; left:600px; z-index:28;}
+#atypicalDayCoffeeHouseBubble{position:absolute; opacity:0; top:190px; left:80px; z-index:28;}
+#atypicalDayGymBubble{position:absolute; opacity:0; top:190px; left:305px; z-index:28;}
+#atypicalDayStadiumBubble{position:absolute; opacity:0; top:220px; left:350px; z-index:28;}
+#atypicalDayMCCBubble{position:absolute; opacity:0; top:160px; left:530px; z-index:28;}
+#atypicalDayCounselingBubble{position:absolute; opacity:0; top:160px; left:640px; z-index:28;}
+#atypicalDayYogaBubble{position:absolute; opacity:0; top:320px; left:220px; z-index:28;}
+#atypicalDayPubBubble{position:absolute; opacity:0; top:290px; left:460px; z-index:28;}
+#atypicalDayConductBubble{position:absolute; opacity:0; top:240px; left:630px; z-index:28;}
+#atypicalDayHavenBubble{position:absolute; opacity:0; top:320px; left:330px; z-index:28;}
+
+#atypicalDayRowOneContent{position:relative; top:90px; left:20px; width:670px; margin-left:auto; margin-right:auto; z-index:25;}
+#atypicalDayHeaderTop{position:relative; width: 670px; height:50px; padding-top:10px; margin-left: 40px; padding-left:60px; z-index:25; background-color:#e7d100;}
+#atypicalDayTop{position:relative; }
+#atypicalDayHeaderBottom{position:relative; width: 670px; height:100px; padding-top:10px; margin-left: 40px; padding-left:60px; z-index:25; background-color:#e7d100;}
+
+#atypicalDayRowTwoContent{position: relative; width:800px; }
+#atypicalDayRowTwoContentLeft{position:relative; float:left; padding-top:180px; padding-bottom:20px; padding-left:130px; z-index:25;}
+#atypicalDayRowTwoPageAnchor{position:absolute; top:450px; left:310px; z-index:20;}
+
+#atypicalDayRowThreeContent{position: relative; width:800px; }
+#atypicalDayRowThreeContentLeft{position:relative; float:left; padding-top:20px; padding-left:60px;}
+#atypicalDayRowThreeContentRight{position:absolute; top:710px; left:450px; z-index:25;}
+
+#atypicalDayRowFourContent{position: relative; width:800px; }
+#atypicalDayRowFourContentLeft{position:relative; float:left; padding-top:70px; padding-left:140px; z-index:25;}
+#atypicalDayRowFourContentRight{position:relative; float:right; padding-top:10px; padding-right:30px; z-index:25;}
+#atypicalDayRowFourPageAnchor{position:absolute; top:1250px; left:310px; z-index:20;}
 
  
 /* ==========================================================================

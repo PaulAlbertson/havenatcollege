@@ -89,13 +89,15 @@
 					window.location.href="the-haven-recovery-grads-parent-information.html";
 				break;
 				case "universAdminSideButtonOff":
+				    window.location.href="the-haven-recovery-grads-administrators-information.html";
 					//console.log("click : universAdminSideButtonOff");
 				break;
 				case "treatmentProsSideButtonOff":
+				    window.location.href="the-haven-recovery-grads-treatment-professionals-information.html";
 					//console.log("click : treatmentProsSideButtonOff");
 				break;
 				case "contactSideButtonOff":
-					window.location.href="mailto:info@recoverygrads.com";
+					window.location.href="the-haven-recovery-grads-contact-us.html";
 					//console.log("click : contactSideButtonOff");
 				break;
 				case "communitySideButtonOff":
@@ -103,6 +105,7 @@
 				break;
 				case "atypicalSideButtonOff":
 					//console.log("click : atypicalSideButtonOff");
+					window.location.href="the-haven-recovery-grads-atypical-day.html";
 				break;
 				
 				

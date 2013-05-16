@@ -18,7 +18,7 @@
 		TweenLite.to([treatProsBtnDiv,treatProsBtnDots,treatProsBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:5.8});
 		TweenLite.to([universAdminBtnDiv,universAdminBtnDots,universAdminBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6});
 		TweenLite.to([contactBtnDiv,contactBtnDots,contactBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6.2});
-		TweenLite.to([hmPgBottomLinks,shareContainer], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6.5});
+		TweenLite.to([hmPgBottomLinks,shareContainer,hmPageFeatureBanner], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6.5});
 		
 		//communityBtnDiv, studentsBtnDiv, typDayBtnDiv, parentsBtnDiv, treatProsBtnDiv, universAdminBtnDiv, contactBtnDiv, hmPgIntroHeader, hmPgIntroCopy
 		
@@ -48,7 +48,7 @@
 				  TweenLite.to(typDayBtnOver, .5, {css:{opacity:0}, ease:Sine.easeOut, delay:0});
 		});
 		$("#typDayBtnDiv").click(function() {
-				comingSoonVisibility();
+				window.location.href="the-haven-recovery-grads-atypical-day.html";
 				 
 		});
 		$("#parentsBtnDiv").hover(function() {
@@ -66,7 +66,8 @@
 				  TweenLite.to(treatProsBtnOver, .5, {css:{opacity:0}, ease:Sine.easeOut, delay:0});
 		});
 		$("#treatProsBtnDiv").click(function() {
-				comingSoonVisibility();
+		    window.location.href="the-haven-recovery-grads-treatment-professionals-information.html";
+				//comingSoonVisibility();
 				 
 		});
 		$("#universAdminBtnDiv").hover(function() {
@@ -75,7 +76,8 @@
 				  TweenLite.to(universAdminBtnOver, .5, {css:{opacity:0}, ease:Sine.easeOut, delay:0});
 		});
 		$("#universAdminBtnDiv").click(function() {
-				comingSoonVisibility();
+		    window.location.href="the-haven-recovery-grads-administrators-information.html";
+			//comingSoonVisibility();
 				 
 		});
 		$("#contactBtnDiv").hover(function() {
@@ -84,7 +86,8 @@
 				  TweenLite.to(contactBtnOver, .5, {css:{opacity:0}, ease:Sine.easeOut, delay:0});
 		});
 		$("#contactBtnDiv").click(function() {
-				mailContact();
+		    window.location.href="the-haven-recovery-grads-contact-us.html";
+				//mailContact();
 				//comingSoonVisibility();
 				 
 		});
