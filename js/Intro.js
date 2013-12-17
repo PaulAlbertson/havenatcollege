@@ -18,7 +18,7 @@
 		TweenLite.to([treatProsBtnDiv,treatProsBtnDots,treatProsBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:5.8});
 		TweenLite.to([universAdminBtnDiv,universAdminBtnDots,universAdminBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6});
 		TweenLite.to([contactBtnDiv,contactBtnDots,contactBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6.2});
-		TweenLite.to([hmPgBottomLinks,shareContainer,hmPageFeatureBanner], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6.5});
+		TweenLite.to([hmPgBottomLinks,shareContainer], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:6.5});
 		
 		//communityBtnDiv, studentsBtnDiv, typDayBtnDiv, parentsBtnDiv, treatProsBtnDiv, universAdminBtnDiv, contactBtnDiv, hmPgIntroHeader, hmPgIntroCopy
 		
