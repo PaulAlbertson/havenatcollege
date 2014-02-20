@@ -178,6 +178,14 @@ h2 {
 .contentLineSpace1_1 {
   line-height: 1.1;
 }
+.adminFooterTitle {
+  font-size: .8em;
+  text-align: right;
+}
+.adminFooterTitleOffset {
+  font-size: .8em;
+  text-align: center;
+}
 .marginTop5px {
   margin-top: 5px;
 }
@@ -189,6 +197,19 @@ h2 {
 }
 .marginBottom10px {
   margin-bottom: 5px;
+}
+.backgroundYellow {
+  padding: 5px 5px 5px 5px;
+  background-color: #e7d100;
+}
+img.paddingTop300px {
+  padding-top: 300px;
+}
+img.paddingBot100px {
+  padding-bottom: 100px;
+}
+.textItalic {
+  font-style: italic;
 }
 ul.ulMarginSet {
   list-style: none;
@@ -720,7 +741,7 @@ a.paddingSet {
 #studentsRowOneContentLeft {
   position: relative;
   float: left;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-left: 110px;
 }
 #studentsRowOneContentRight {
@@ -842,7 +863,7 @@ a.paddingSet {
 /* Parents Page */
 #parentsMainContent {
   position: relative;
-  height: 4050px;
+  height: 4550px;
   width: 800px;
   left: 200px;
 }
@@ -873,7 +894,7 @@ a.paddingSet {
 #parentsRowTwoContentLeft {
   position: relative;
   float: left;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-left: 0px;
 }
 #parentsRowTwoContentRight {
@@ -889,14 +910,14 @@ a.paddingSet {
 #parentsRowThreeContentLeft {
   position: relative;
   float: left;
-  padding-top: 70px;
-  padding-left: 140px;
+  padding-top: 40px;
+  padding-left: 100px;
 }
 #parentsRowThreeContentRight {
   position: relative;
   float: right;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-right: 0px;
 }
 #parentsRowFourContent {
@@ -906,7 +927,7 @@ a.paddingSet {
 #parentsRowFourContentLeft {
   position: relative;
   float: left;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-left: 90px;
 }
 #parentsRowFourContentRight {
@@ -919,7 +940,7 @@ a.paddingSet {
 /* Administrators Page */
 #administratorsMainContent {
   position: relative;
-  height: 3800px;
+  height: 4800px;
   width: 800px;
   left: 170px;
 }
@@ -1010,6 +1031,38 @@ a.paddingSet {
   float: right;
   padding-top: 80px;
   padding-right: 0px;
+}
+#administratorsRowSixContent {
+  position: relative;
+  width: 800px;
+}
+#administratorsRowSixContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 50px;
+  padding-left: 180px;
+}
+#administratorsRowSixContentRight {
+  position: relative;
+  float: right;
+  padding-top: 350px;
+  padding-right: 15px;
+}
+#administratorsRowSevenContent {
+  position: relative;
+  width: 800px;
+}
+#administratorsRowSevenContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 120px;
+  padding-left: 180px;
+}
+#administratorsRowSevenContentRight {
+  position: relative;
+  float: right;
+  padding-top: 180px;
+  padding-right: 15px;
 }
 /* Treatment Professionals Page */
 #treatmentProsMainContent {
@@ -1102,10 +1155,52 @@ a.paddingSet {
   padding-top: 80px;
   padding-right: 40px;
 }
+/*Community Page*/
+#communityMainContent {
+  position: relative;
+  height: 1500px;
+  width: 800px;
+  left: 170px;
+}
+#communityRowOneContent {
+  position: relative;
+  width: 800px;
+}
+#communityRowOneContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+#communityRowOneContentRight {
+  position: relative;
+  float: right;
+  padding-top: 340px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+#communityRowTwoContent {
+  position: relative;
+  width: 800px;
+}
+#communityRowTwoContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 180px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+#communityRowTwoContentRight {
+  position: relative;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+}
 /* Contact Us Page */
 #contactUsMainContent {
   position: relative;
-  height: 5300px;
+  height: 6200px;
   width: 800px;
   left: 170px;
 }
@@ -1276,6 +1371,43 @@ a.paddingSet {
   left: -80px;
   padding-top: 140px;
   padding-right: 25px;
+  z-index: 20;
+}
+#contactUsRowRosalieContent {
+  position: relative;
+  width: 800px;
+}
+#contactUsRowRosalieContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 110px;
+  padding-left: 140px;
+  z-index: 25;
+}
+#contactUsRowRosalieContentRight {
+  position: relative;
+  float: right;
+  padding-top: 30px;
+  padding-right: 20px;
+  z-index: 20;
+}
+#contactUsRowPeterContent {
+  position: relative;
+  width: 800px;
+}
+#contactUsRowPeterContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 20px;
+  padding-left: 130px;
+  z-index: 25;
+}
+#contactUsRowPeterContentRight {
+  position: relative;
+  float: right;
+  left: -80px;
+  padding-top: 140px;
+  padding-right: 5px;
   z-index: 20;
 }
 #contactUsRowTenContent {

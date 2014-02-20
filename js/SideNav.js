@@ -13,7 +13,7 @@
 			selectedNavItem = this.selectedNavItem;
 			//console.log(selectedNavItem);
 			TweenLite.to(navigationArray[selectedNavItem], .5, {css:{opacity:1}, ease:Sine.easeOut, delay:0});
-		}
+		};
 
 		//console.log(this.selectedNavItem);
 		
@@ -101,6 +101,7 @@
 					//console.log("click : contactSideButtonOff");
 				break;
 				case "communitySideButtonOff":
+				window.location.href="the-haven-recovery-grads-community-information.html";
 					//console.log("click : communitySideButtonOff");
 				break;
 				case "atypicalSideButtonOff":

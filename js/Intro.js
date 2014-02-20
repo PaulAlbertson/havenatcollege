@@ -30,7 +30,8 @@
 				  TweenLite.to(communityBtnOver, .5, {css:{opacity:0}, ease:Sine.easeOut, delay:0});
 		});
 		$("#communityBtnDiv").click(function() {
-				comingSoonVisibility();
+		        window.location.href="the-haven-recovery-grads-community-information.html";
+				//comingSoonVisibility();
 				 
 		});
 		$("#studentsBtnDiv").hover(function() {
