@@ -902,6 +902,7 @@ a.paddingSet {
   float: right;
   padding-top: 0px;
   padding-right: 50px;
+  padding-bottom: 50px;
 }
 #parentsRowThreeContent {
   position: relative;
@@ -927,7 +928,7 @@ a.paddingSet {
 #parentsRowFourContentLeft {
   position: relative;
   float: left;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-left: 90px;
 }
 #parentsRowFourContentRight {
@@ -1200,7 +1201,7 @@ a.paddingSet {
 /* Contact Us Page */
 #contactUsMainContent {
   position: relative;
-  height: 6200px;
+  height: 6400px;
   width: 800px;
   left: 170px;
 }
