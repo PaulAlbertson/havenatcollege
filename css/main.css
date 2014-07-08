@@ -1238,7 +1238,7 @@ a.paddingSet {
 #contactUsRowTwoContentRight {
   position: relative;
   float: right;
-  padding-top: 40px;
+  padding-top: 70px;
   padding-bottom: 30px;
   padding-right: 110px;
 }
@@ -1249,10 +1249,23 @@ a.paddingSet {
 #contactUsRowThreeContentLeft {
   position: relative;
   float: left;
-  padding-top: 120px;
+  padding-top: 110px;
   padding-left: 130px;
 }
 #contactUsRowThreeContentRight {
+  position: relative;
+  float: right;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-right: 110px;
+}
+#contactUsRowFouraContentLeft {
+  position: relative;
+  float: left;
+  padding-top: 60px;
+  padding-left: 140px;
+}
+#contactUsRowFouraContentRight {
   position: relative;
   float: right;
   padding-top: 0px;
