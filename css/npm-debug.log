@@ -1,0 +1,17 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'less' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 error Error: EACCES, mkdir '/Users/palbertson/.node/lib'
+4 error  { [Error: EACCES, mkdir '/Users/palbertson/.node/lib'] errno: 3, code: 'EACCES', path: '/Users/palbertson/.node/lib' }
+5 error Please try running this command again as root/Administrator.
+6 error System Darwin 13.4.0
+7 error command "node" "/usr/local/bin/npm" "install" "-g" "less"
+8 error cwd /Users/palbertson/HAL/2012_Projects/theHavenAtCollege/SITE/Release_1.0/css
+9 error node -v v0.10.33
+10 error npm -v 1.4.28
+11 error path /Users/palbertson/.node/lib
+12 error code EACCES
+13 error errno 3
+14 error stack Error: EACCES, mkdir '/Users/palbertson/.node/lib'
+15 verbose exit [ 3, true ]
