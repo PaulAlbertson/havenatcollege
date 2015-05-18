@@ -321,17 +321,17 @@ a.paddingSet {
 #hmPageHeaderH1 {
   position: absolute;
   left: 0px;
-  top: 54px;
+  top: 84px;
   z-index: 10;
   width: 960px;
   opacity: 0;
   filter: alpha(opacity=0);
-  font-size: 12px;
+  font-size: 14px;
   background-color: #ffffff;
 }
 #hmPageCopy {
   position: absolute;
-  top: 560px;
+  top: 530px;
   z-index: 10;
   width: 960px;
   opacity: 0;
@@ -350,6 +350,7 @@ a.paddingSet {
   opacity: 0;
   filter: alpha(opacity=0);
   margin-top: 1px;
+  margin-bottom: 0px;
   background-color: #ffffff;
 }
 #hmPgBottomLinks {
@@ -372,13 +373,6 @@ a.paddingSet {
   background-repeat: no-repeat;
   background-image: url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");
 }
-/* Home Page Buttons*/
-/* Less Variables */
-/* debug values */
-/* Home page buttons */
-#homePgButtons {
-  overflow: inherit;
-}
 #hmPageFeatureBanner {
   position: absolute;
   right: 0px;
@@ -387,49 +381,60 @@ a.paddingSet {
   filter: alpha(opacity=0);
   z-index: 14;
 }
-#communityBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 49px;
-  top: 140px;
+/* Home Page Buttons*/
+/* Less Variables */
+/* debug values */
+/* ==========================================================================
+ * House images
+ * ==========================================================================*/
+.houseOffset {
+  width: 280px;
+  text-align: center;
+}
+#hmPageSchoolHouses {
+  position: absolute;
+  top: 170px;
+}
+#hmUscHouse {
+  position: absolute;
+  left: 0px;
   opacity: 0;
   filter: alpha(opacity=0);
 }
-#communityBtnDots {
+#hmDrexelHouse {
   position: absolute;
-  left: 210px;
-  top: 80px;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 14;
-}
-#communityBtnOff {
-  position: absolute;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 13;
-}
-#communityBtnOver {
-  position: absolute;
+  left: 180px;
   opacity: 0;
   filter: alpha(opacity=0);
-  z-index: 12;
+}
+#hmRedlandsHouse {
+  position: absolute;
+  left: 360px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#hmUSFHouse {
+  position: absolute;
+  left: 540px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#hmUCSBHouse {
+  position: absolute;
+  left: 730px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* Home page buttons */
+#homePgButtons {
+  overflow: inherit;
 }
 #studentsBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 618px;
-  top: 106px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
   opacity: 0;
   filter: alpha(opacity=0);
-}
-#studentsBtnDots {
-  position: absolute;
-  left: 5px;
-  top: 70px;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 14;
 }
 #studentsBtnOff {
   position: absolute;
@@ -443,49 +448,12 @@ a.paddingSet {
   filter: alpha(opacity=0);
   z-index: 12;
 }
-#typDayBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 49px;
-  top: 271px;
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-#typDayBtnDots {
-  position: absolute;
-  left: 180px;
-  top: 50px;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 14;
-}
-#typDayBtnOff {
-  position: absolute;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 13;
-}
-#typDayBtnOver {
-  position: absolute;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  z-index: 12;
-}
 #parentsBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 618px;
-  top: 211px;
+  position: absolute;
+  left: 120px;
+  bottom: 0px;
   opacity: 0;
   filter: alpha(opacity=0);
-}
-#parentsBtnDots {
-  position: absolute;
-  left: 0px;
-  top: 60px;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 14;
 }
 #parentsBtnOff {
   position: absolute;
@@ -499,49 +467,12 @@ a.paddingSet {
   filter: alpha(opacity=0);
   z-index: 12;
 }
-#treatProsBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 618px;
-  top: 320px;
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-#treatProsBtnDots {
-  position: absolute;
-  left: 0px;
-  top: 50px;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 14;
-}
-#treatProsBtnOff {
-  position: absolute;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 13;
-}
-#treatProsBtnOver {
-  position: absolute;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  z-index: 12;
-}
 #universAdminBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 49px;
-  top: 423px;
+  position: absolute;
+  left: 230px;
+  bottom: 10px;
   opacity: 0;
   filter: alpha(opacity=0);
-}
-#universAdminBtnDots {
-  position: absolute;
-  left: 210px;
-  top: 40px;
-  opacity: 1;
-  filter: alpha(opacity=0);
-  z-index: 14;
 }
 #universAdminBtnOff {
   position: absolute;
@@ -555,21 +486,69 @@ a.paddingSet {
   filter: alpha(opacity=0);
   z-index: 12;
 }
-#contactBtnDiv {
-  position: relative;
-  width: 100px;
-  left: 618px;
-  top: 461px;
+#treatProsBtnDiv {
+  position: absolute;
+  left: 390px;
+  bottom: 10px;
   opacity: 0;
   filter: alpha(opacity=0);
 }
-#contactBtnDots {
+#treatProsBtnOff {
   position: absolute;
-  left: 0px;
-  top: 0px;
   opacity: 1;
   filter: alpha(opacity=0);
-  z-index: 14;
+  z-index: 13;
+}
+#treatProsBtnOver {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 12;
+}
+#communityBtnDiv {
+  position: absolute;
+  left: 560px;
+  bottom: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#communityBtnOff {
+  position: absolute;
+  opacity: 1;
+  filter: alpha(opacity=0);
+  z-index: 13;
+}
+#communityBtnOver {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 12;
+}
+#typDayBtnDiv {
+  position: absolute;
+  left: 690px;
+  bottom: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#typDayBtnOff {
+  position: absolute;
+  opacity: 1;
+  filter: alpha(opacity=0);
+  z-index: 13;
+}
+#typDayBtnOver {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 12;
+}
+#contactBtnDiv {
+  position: absolute;
+  left: 830px;
+  bottom: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 #contactBtnOff {
   position: absolute;

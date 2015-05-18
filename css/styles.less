@@ -186,13 +186,13 @@ a.addthis_button{padding-left:2px;}
 a.paddingSet{margin-top:5px;}
 
 /* home page body copy related */ 
-#hmPageHeaderH1{position:absolute; left:0px; top:54px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); font-size:12px; background-color:#ffffff;}
-#hmPageCopy{position:absolute;top:560px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); background-color:#ffffff;}
+#hmPageHeaderH1{position:absolute; left:0px; top:84px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); font-size:14px; background-color:#ffffff;}
+#hmPageCopy{position:absolute; top:530px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); background-color:#ffffff;}
 #hmPgIntroHeader{ opacity:@startOpacity; filter: alpha(opacity=0); font-size:14px; font-weight:400;background-color:#ffffff;}
-#hmPgIntroCopy{ z-index: 10; opacity:@startOpacity; filter: alpha(opacity=0);margin-top:1px;background-color:#ffffff;}
+#hmPgIntroCopy{ z-index: 10; opacity:@startOpacity; filter: alpha(opacity=0);margin-top:1px; margin-bottom:0px; background-color:#ffffff;}
 #hmPgBottomLinks{width:890px; height:40px; margin-left:auto; margin-right:auto;margin-top:15px; padding-top:10px;opacity:0; filter: alpha(opacity=0);background-image:url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");}
 #subPgBottomLinks{width:820px; height:40px; margin-left:200px; padding-top:10px; margin-bottom:0px; background-repeat: no-repeat; background-image:url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");}
-
+#hmPageFeatureBanner{position:absolute; right:0px; top:30px; opacity:@startOpacity; filter: alpha(opacity=0); z-index: @homeDotsZ;}
 
 /* Home Page Buttons*/
 /* Less Variables */
@@ -206,45 +206,49 @@ a.paddingSet{margin-top:5px;}
 /* debug values */
 @testVisibility:visible;
 
+/* ==========================================================================
+ * House images
+ * ==========================================================================*/ 
+
+.houseOffset{width:280px; text-align: center;}
+
+#hmPageSchoolHouses{ position:absolute; top:170px;}
+#hmUscHouse{position:absolute; left:0px; opacity:0; filter: alpha(opacity=0);}
+#hmDrexelHouse{position:absolute; left:180px; opacity:0; filter: alpha(opacity=0);}
+#hmRedlandsHouse{position:absolute; left:360px; opacity:0; filter: alpha(opacity=0);}
+#hmUSFHouse{position:absolute; left:540px; opacity:0; filter: alpha(opacity=0);}
+#hmUCSBHouse{position:absolute; left:730px; opacity:0; filter: alpha(opacity=0);}
+
+
 /* Home page buttons */
 
 #homePgButtons{overflow:inherit;}
-//background-color: #ffffff\9;
 
-#hmPageFeatureBanner{position:absolute; right:0px; top:30px; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeDotsZ;}
-
-#communityBtnDiv{position:relative; width:100px;left:49px; top:140px; opacity:0; filter: alpha(opacity=0);}
-#communityBtnDots{position:absolute; left:210px; top:80px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ; }
-#communityBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ; }
-#communityBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ; }
-
-#studentsBtnDiv{position:relative; width:100px;left:618px; top:106px; opacity:0; filter: alpha(opacity=0);}
-#studentsBtnDots{position:absolute; left:5px; top:70px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ;}
+#studentsBtnDiv{position:absolute; left:0px; bottom:0px; opacity:0; filter: alpha(opacity=0);}
 #studentsBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
 #studentsBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
 
-#typDayBtnDiv{position:relative; width:100px;left:49px; top:271px; opacity:0; filter: alpha(opacity=0);}
-#typDayBtnDots{position:absolute; left:180px; top:50px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ;}
-#typDayBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
-#typDayBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
-
-#parentsBtnDiv{position:relative; width:100px;left:618px; top:211px; opacity:0; filter: alpha(opacity=0);}
-#parentsBtnDots{position:absolute; left:0px; top:60px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ;}
+#parentsBtnDiv{position:absolute; left:120px; bottom:0px; opacity:0; filter: alpha(opacity=0);}
 #parentsBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
 #parentsBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
 
-#treatProsBtnDiv{position:relative; width:100px;left:618px; top:320px; opacity:0; filter: alpha(opacity=0);}
-#treatProsBtnDots{position:absolute; left:0px; top:50px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ;}
-#treatProsBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
-#treatProsBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
-
-#universAdminBtnDiv{position:relative; width:100px;left:49px; top:423px; opacity:0; filter: alpha(opacity=0);}
-#universAdminBtnDots{position:absolute; left:210px; top:40px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ;}
+#universAdminBtnDiv{position:absolute; left:230px; bottom:10px; opacity:0; filter: alpha(opacity=0);}
 #universAdminBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
 #universAdminBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
 
-#contactBtnDiv{position:relative; width:100px;left:618px; top:461px; opacity:0; filter: alpha(opacity=0);}
-#contactBtnDots{position:absolute; left:0px; top:0px; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeDotsZ;}
+#treatProsBtnDiv{position:absolute; left:390px; bottom:10px; opacity:0; filter: alpha(opacity=0);}
+#treatProsBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
+#treatProsBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
+
+#communityBtnDiv{position:absolute; left:560px; bottom:0px; opacity:0; filter: alpha(opacity=0);}
+#communityBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ; }
+#communityBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ; }
+
+#typDayBtnDiv{position:absolute; left:690px; bottom:0px; opacity:0; filter: alpha(opacity=0);}
+#typDayBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
+#typDayBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
+
+#contactBtnDiv{position:absolute; left:830px; bottom:0px; opacity:0; filter: alpha(opacity=0);}
 #contactBtnOff{position:absolute; opacity:@visibilityOn; filter: alpha(opacity=0); z-index: @homeOffStateZ;}
 #contactBtnOver{position:absolute; opacity:@visibilityOff; filter: alpha(opacity=0); z-index: @homeOverStateZ;}
 
