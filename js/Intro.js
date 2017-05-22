@@ -15,8 +15,8 @@
 		TweenLite.to(hmUscHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2});
 		TweenLite.to(hmDrexelHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2.2});
 		TweenLite.to(hmRedlandsHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2.4});
-		TweenLite.to(hmUSFHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2.6});
-		TweenLite.to(hmUCSBHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2.8});
+		TweenLite.to(hmUCSBHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2.6});
+		TweenLite.to(hmUSFHouse, 1, {css:{opacity:1}, ease:Sine.easeOut, delay:2.8});
 
 		TweenLite.to([studentsBtnDiv,studentsBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:3.2});
 		TweenLite.to([parentsBtnDiv,parentsBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:3.4});
@@ -25,7 +25,7 @@
 		TweenLite.to([communityBtnDiv, communityBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:4});
 		TweenLite.to([typDayBtnDiv, typDayBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:4.2});
 		TweenLite.to([contactBtnDiv,contactBtnOff], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:4.4});
-		TweenLite.to([shareContainer,hmPageFeatureBanner], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:5});
+		TweenLite.to([shareContainer], 1, {css:{opacity:1}, ease:Sine.easeOut, delay:5});
 
 
 		//Added back the hmPageFeatureBanner

@@ -107,6 +107,7 @@ textarea {
 .droid24{font-family:@droid; font-size:24px;}
 
 .cutive11{font-family:@cutive; font-size:11px;}
+.cutive13{font-family:@cutive; font-size:13px;}
 .cutive14{font-family:@cutive; font-size:14px;}
 .cutive15{font-family:@cutive; font-size:15px;}
 .cutive16{font-family:@cutive; font-size:16px;}
@@ -147,9 +148,13 @@ h2 {font-family:@cutive;font-weight:normal;margin-bottom:0;padding-bottom:0;}
 .marginBottom5px{margin-bottom:5px;}
 .marginTop10px{margin-top:5px;}
 .marginBottom10px{margin-bottom:5px;}
+.photoMarginRt{margin-right: 15px;}
 .backgroundYellow{padding:5px 5px 5px 5px; background-color:#e7d100;}
+.image-float-right{float: right;}
+.image-float-left{float: left;}
 img.paddingTop300px{padding-top:300px;}
 img.paddingBot100px{padding-bottom:100px;}
+img.image-center {display: block; margin-left: 160px;}
 .textItalic{font-style:italic;}
 ul.ulMarginSet{list-style:none; padding:0px;margin-left:0px;margin-top:0px;margin-bottom:0px;}
 ol.olMarginSet{padding-left:25px;margin-top:0px;margin-bottom:0px;}
@@ -166,6 +171,16 @@ a.bottomLinksNav:link {text-decoration:none;color:#333333;}
 a.bottomLinksNav:visited {text-decoration:none;color:#333333;}
 a.bottomLinksNav:hover {text-decoration:underline;}
 a.bottomLinksNav:active {text-decoration:underline;}
+
+a.homeLinksNav:link {font-family:@cutive; font-size:14px; text-decoration:none;color:#000000;}
+a.homeLinksNav:visited {font-family:@cutive; font-size:14px; text-decoration:none;color:#000000;}
+a.homeLinksNav:hover {font-family:@cutive; font-size:14px; color:#ed482c;}
+a.homeLinksNav:active {font-family:@cutive; font-size:14px; color:#ed482c;}
+
+a.contactLinks:link {font-family:@droid; font-size:14px; text-decoration:none;color:#ed482c;}
+a.contactLinks:visited {font-family:@droid; font-size:14px; text-decoration:none;color:#ed482c;}
+a.contactLinks:hover {font-family:@droid; font-size:14px; color:#000000;}
+a.contactLinks:active {font-family:@droid; font-size:14px; color:#000000;}
 
 /* Intro related */  
 @clientHeight: 400px;
@@ -186,12 +201,13 @@ a.addthis_button{padding-left:2px;}
 a.paddingSet{margin-top:5px;}
 
 /* home page body copy related */ 
-#hmPageHeaderH1{position:absolute; left:0px; top:84px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); font-size:14px; background-color:#ffffff;}
-#hmPageCopy{position:absolute; top:530px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); background-color:#ffffff;}
-#hmPgIntroHeader{ opacity:@startOpacity; filter: alpha(opacity=0); font-size:14px; font-weight:400;background-color:#ffffff;}
+#hmPageHeaderH1{position:absolute; left:50px; top:84px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0); font-size:14px;}
+#hmPageCopy{position:absolute; top:500px; z-index: 10; width:960px; opacity:@startOpacity; filter: alpha(opacity=0);}
+#hmPgIntroHeader{ opacity:@startOpacity; filter: alpha(opacity=0); font-size:14px; font-weight:400;}
 #hmPgIntroCopy{ z-index: 10; opacity:@startOpacity; filter: alpha(opacity=0);margin-top:1px; margin-bottom:0px; background-color:#ffffff;}
 #hmPgBottomLinks{width:890px; height:40px; margin-left:auto; margin-right:auto;margin-top:15px; padding-top:10px;opacity:0; filter: alpha(opacity=0);background-image:url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");}
 #subPgBottomLinks{width:820px; height:40px; margin-left:200px; padding-top:10px; margin-bottom:0px; background-repeat: no-repeat; background-image:url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");}
+#subPgBottomLinksSchoolLanding{position:relative; width:820px; padding-top:10px ;background-repeat: no-repeat; background-image:url("../img/homepage/the-haven-homepage-home-bottom-nav-back.jpg");}
 #hmPageFeatureBanner{position:absolute; right:0px; top:30px; opacity:@startOpacity; filter: alpha(opacity=0); z-index: @homeDotsZ;}
 
 /* Home Page Buttons*/
@@ -214,10 +230,10 @@ a.paddingSet{margin-top:5px;}
 
 #hmPageSchoolHouses{ position:absolute; top:170px;}
 #hmUscHouse{position:absolute; left:0px; opacity:0; filter: alpha(opacity=0);}
-#hmDrexelHouse{position:absolute; left:180px; opacity:0; filter: alpha(opacity=0);}
-#hmRedlandsHouse{position:absolute; left:360px; opacity:0; filter: alpha(opacity=0);}
-#hmUSFHouse{position:absolute; left:540px; opacity:0; filter: alpha(opacity=0);}
-#hmUCSBHouse{position:absolute; left:730px; opacity:0; filter: alpha(opacity=0);}
+#hmDrexelHouse{position:absolute; left:190px; opacity:0; filter: alpha(opacity=0);}
+#hmRedlandsHouse{position:absolute; left:380px; opacity:0; filter: alpha(opacity=0);}
+#hmUSFHouse{position:absolute; left:750px; opacity:0; filter: alpha(opacity=0);}
+#hmUCSBHouse{position:absolute; left:560px; opacity:0; filter: alpha(opacity=0);}
 
 
 /* Home page buttons */
@@ -293,7 +309,18 @@ a.paddingSet{margin-top:5px;}
 #atypicalSideButtonOff{position:absolute; z-index:@homeOffStateZ;}
 #atypicalSideButtonOver{position:absolute; z-index:@homeOverStateZ;opacity:@visibilityOff; filter: alpha(opacity=0);}
 
-          
+
+ /* ==========================================================================
+ * Campus Landing Page Content 
+ * ==========================================================================*/ 
+
+#campus-landing-content{position:relative; height:1700px; width:800px; left:200px;}
+#campus-header{position: relative; top: 100px; width: 620px; margin-bottom:140px; margin-left: auto; margin-right: auto;}
+#campus-column-one{position: relative; float: left; left:100px; width: 300px;}
+#campus-column-two{position: relative; float: right; right:60px; width: 300px;}
+#campus-column-wide{position: relative; clear:both; left:20px; width: 650px; margin-bottom:20px; margin-left: auto; margin-right: auto;}
+
+
  /* ==========================================================================
  * Subpage Content 
  * ==========================================================================*/ 
@@ -348,7 +375,7 @@ a.paddingSet{margin-top:5px;}
 #parentsRowFourContentLeft{position:relative; float:left; padding-top:80px; padding-left:90px;}
 #parentsRowFourContentRight{position:relative; float:right; padding-top:0px; padding-right:55px; padding-bottom:0px;}
 
-// #parentsRowFiveContent{position: relative; width:800px; }
+/* #parentsRowFiveContent{position: relative; width:800px; }
 // #parentsRowFiveContentLeft{position:relative; float:left; padding-top:60px; padding-left:130px; }
 // #parentsRowFiveContentRight{position:relative; float:right; padding-top:30px; padding-right:10px;padding-bottom:10px; }
 // 
@@ -358,7 +385,7 @@ a.paddingSet{margin-top:5px;}
 // 
 // #parentsRowSevenContent{position: relative; width:800px; }
 // #parentsRowSevenContentLeft{position:relative; float:left; padding-top:60px; padding-left:50px; padding-bottom:0px; }
-// #parentsRowSevenContentRight{position:relative; float:right; padding-top:20px; padding-left:0px;padding-right:0px;padding-bottom:0px;}
+// #parentsRowSevenContentRight{position:relative; float:right; padding-top:20px; padding-left:0px;padding-right:0px;padding-bottom:0px;}*/
 
 /* Administrators Page */
 #administratorsMainContent{position:relative; height:4800px; width:800px; left:170px;}
@@ -429,14 +456,15 @@ a.paddingSet{margin-top:5px;}
 
 
 /* Contact Us Page */
-#contactUsMainContent{position:relative; height:7800px; width:800px; left:170px;}
+#contactUsMainContent{position:relative; height:6200px; width:800px; left:170px;}
 
 #contactUsRowOneContent{position: relative; width:800px;}
-#contactUsRowOneContentLeft{position:relative; float:left; padding-top:100px; padding-left:130px; z-index:25;}
-#contactUsRowOneContentRight{position:relative; float:right; padding-top:150px; padding-bottom:0px; padding-right:40px; z-index:20;}
+#contactUsRowOneHeader{position: relative; padding-top:100px; padding-left:130px; width:800px;}
+#contactUsRowOneContentLeft{position:relative; float:left; padding-top:20px; padding-left:130px; z-index:25;}
+#contactUsRowOneContentRight{position:relative; float:right; padding-top:20px; padding-right:100px; z-index:20;}
 
 #contactUsRowTwoContent{position: relative; width:800px; }
-#contactUsRowTwoContentLeft{position:relative; float:left; padding-top:80px; padding-bottom:20px; padding-left:130px; }
+#contactUsRowTwoContentLeft{position:relative; float:left; padding-top:20px; padding-bottom:20px; padding-left:130px; }
 #contactUsRowTwoContentRight{position:relative; float:right; padding-top:100px; padding-bottom:0px; padding-right:110px;}
 
 #contactUsRowThreeContent{position: relative; width:800px; }
@@ -454,7 +482,7 @@ a.paddingSet{margin-top:5px;}
 #contactUsRowFiveContentRight{position:relative; float:right; padding-top:0px; padding-right:20px;}
 // Sharon
 #contactUsRowSixContent{position: relative; width:800px; }
-#contactUsRowSixContentLeft{position:relative; width:275px; float:left; padding-top:100px; padding-left:130px; z-index:25;}
+#contactUsRowSixContentLeft{position:relative; width:275px; float:left; padding-top:80px; padding-left:130px; z-index:25;}
 #contactUsRowSixContentRight{position:relative; float:right; padding-top:100px; padding-right:100px; z-index:20;}
 // Elise
 #contactUsEliseRowContent{position: relative; width:800px; }
@@ -463,17 +491,17 @@ a.paddingSet{margin-top:5px;}
 
 // Chris
 #contactUsRowSevenContent{position: relative; width:800px; }
-#contactUsRowSevenContentLeft{position:relative; float:left; padding-top:160px; padding-left:130px; }
-#contactUsRowSevenContentRight{position:relative; float:right; padding-top:90px; padding-right:100px;}
+#contactUsRowSevenContentLeft{position:relative; float:left; padding-top:60px; padding-left:140px; }
+#contactUsRowSevenContentRight{position:relative; float:right; padding-top:60px; padding-right:100px;}
 
 //Nick
 #contactUsRowEightContent{position: relative; width:800px; }
-#contactUsRowEightContentLeft{position:relative; float:left; padding-top:110px; padding-left:140px; z-index:25;}
-#contactUsRowEightContentRight{position:relative; float:right; padding-top:30px; padding-right:20px; z-index:20;}
+#contactUsRowEightContentLeft{position:relative; float:left; padding-top:180px; padding-left:140px; z-index:25;}
+#contactUsRowEightContentRight{position:relative; float:right; padding-top:30px; padding-right:80px; z-index:20;}
 // Stephanie
 #contactUsRowNineContent{position: relative; width:800px; }
-#contactUsRowNineContentLeft{position:relative; float:left; padding-top:20px; padding-left:150px; z-index:25;}
-#contactUsRowNineContentRight{position:relative; float:right; left:20px; padding-top:140px; padding-right:25px; z-index:20;}
+#contactUsRowNineContentLeft{position:relative; width:290px; float:left; padding-top:20px; padding-left:150px; z-index:25;}
+#contactUsRowNineContentRight{position:relative; float:right; left:0px; padding-top:190px; padding-right:90px; z-index:20;}
 
 // Rosalie
 #contactUsRowRosalieContent{position: relative; width:800px; }
@@ -484,21 +512,25 @@ a.paddingSet{margin-top:5px;}
 
 // Colleen
 #contactUsRowColleenContent{position: relative; width:800px; }
-#contactUsRowColleenContentLeft{position:relative; float:left; padding-top:20px; padding-left:150px; z-index:25;}
-#contactUsRowColleenContentRight{position:relative; float:right; left:20px; padding-top:140px; padding-right:25px; z-index:20;}
+#contactUsRowColleenContentLeft{position:relative; float:left; padding-top:110px; padding-left:150px; z-index:25;}
+#contactUsRowColleenContentRight{position:relative; float:right; left:20px; padding-top:20px; padding-right:60px; z-index:20;}
 
 // Kacey
 #contactUsRowKaceyContent{position: relative; width:800px; }
 #contactUsRowKaceyContentLeft{position:relative; float:left; padding-top:110px; padding-left:140px; z-index:25;}
-#contactUsRowKaceyContentRight{position:relative; float:right; padding-top:30px; padding-right:20px; z-index:20;}
+#contactUsRowKaceyContentRight{position:relative; float:right; width:340px; padding-top:30px; padding-right:20px; z-index:20;}
 
 
-
+//Ward
+#contactUsRowWardContent{position: relative; width:800px; }
+#contactUsRowWardContentLeft{position:relative; float:left; width: 300px; padding-top:160px; padding-left:140px; z-index:25;}
+#contactUsRowWardContentRight{position:relative; float:right; left:-80px; padding-top:80px; padding-right:5px; z-index:20;}
 
 // Peter
 #contactUsRowPeterContent{position: relative; width:800px; }
-#contactUsRowPeterContentLeft{position:relative; float:left; padding-top:20px; padding-left:130px; z-index:25;}
-#contactUsRowPeterContentRight{position:relative; float:right; left:-80px; padding-top:140px; padding-right:5px; z-index:20;}
+#contactUsRowPeterContentLeft{position:relative; float:left; width: 300px; padding-top:110px; padding-left:130px; z-index:25;}
+#contactUsRowPeterContentRight{position:relative; float:right; left:-80px; padding-top:0px; padding-right:5px; z-index:20;}
+
 
 // Jerry
 #contactUsRowTenContent{position: relative; width:800px; }
@@ -521,6 +553,8 @@ a.paddingSet{margin-top:5px;}
 #contactUsRowThirteenContent{position: relative; width:800px; }
 #contactUsRowThirteenContentLeft{position:relative; float:left; padding-top:120px; padding-left:140px; }
 #contactUsRowThirteenContentRight{position:relative; float:right; padding-top:50px; padding-right:50px;}
+
+#contactUsRecruiting{position: relative; width:620px; padding-left:310px; margin-bottom: 50px;}
 
 /* Atypical Day Page */
 #atypicalDayMainContent{position:relative; height:2800px; width:700px; left:160px;}
