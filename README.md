@@ -1,4 +1,4 @@
 # The Haven at College
-# [Website](http://thehavenatcollege.com)
+[Current Website](http://thehavenatcollege.com)
 
 Historical capture of site code for The Haven at College. Site has changed and is under development by a different group.
